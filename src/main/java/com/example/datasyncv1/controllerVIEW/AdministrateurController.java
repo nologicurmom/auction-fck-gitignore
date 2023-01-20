@@ -10,7 +10,7 @@ import com.example.datasyncv1.models.CategorieProduit;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import sun.util.resources.cldr.tg.CalendarData_tg_Cyrl_TJ;
+//import sun.util.resources.cldr.tg.CalendarData_tg_Cyrl_TJ;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
