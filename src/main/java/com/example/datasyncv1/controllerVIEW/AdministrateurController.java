@@ -22,7 +22,7 @@ public class AdministrateurController {
 
     Connexion con;
 
-    Connection con1 = objectBdd.ManipDb.pgConnect("postgres","cloudfinal","1618");
+    Connection con1 = objectBdd.ManipDb.pgConnect("postgres","railway","2HxL1J7BJORnaDsau1wQ");
 
     PrelevementEnchereDao p = new PrelevementEnchereDao();
     AdminDao a = new AdminDao();

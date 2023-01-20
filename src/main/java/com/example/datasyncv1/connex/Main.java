@@ -21,7 +21,7 @@ public class Main {
         for (ProduitCategorie p : list){
             System.out.println(p.getTypeCategorie());
         }*/
-        Connection con = objectBdd.ManipDb.pgConnect("postgres","cloudfinal","hardi");
+        Connection con = objectBdd.ManipDb.pgConnect("postgres","railway","2HxL1J7BJORnaDsau1wQ");
         Connexion con1= new Connexion();
         ProduitDao p = new ProduitDao();
         p.AjouterPhotoProduit(con1,1,"ok");

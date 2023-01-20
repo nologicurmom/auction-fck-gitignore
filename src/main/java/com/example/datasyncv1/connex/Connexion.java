@@ -7,16 +7,16 @@ public class Connexion
     public Statement stat;
     ResultSet res;
 
-    protected static String DB = "cloudfinal";
+    protected static String DB = "railway";
     protected static String Username = "postgres";
-    protected static String Password = "1618";
+    protected static String Password = "2HxL1J7BJORnaDsau1wQ";
 
     public Connexion(String req)
     {
         try
         {
             Class.forName("org.postgresql.Driver");
-            this.con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/"+DB, Username, Password);
+            this.con = DriverManager.getConnection("jdbc:postgresql://containers-us-west-175.railway.app:6661/"+DB, Username, Password);
             this.stat= this.con.createStatement();
 //  			this.res=stat.executeQuery(req);
             stat.execute(req);
